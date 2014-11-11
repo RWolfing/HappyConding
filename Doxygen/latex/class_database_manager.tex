@@ -1,0 +1,294 @@
+\hypertarget{class_database_manager}{\section{Database\+Manager Class Reference}
+\label{class_database_manager}\index{Database\+Manager@{Database\+Manager}}
+}
+
+
+The \hyperlink{class_database_manager}{Database\+Manager} class.  
+
+
+
+
+{\ttfamily \#include $<$databasemanager.\+h$>$}
+
+
+
+Inheritance diagram for Database\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{class_database_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Database\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{class_database_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_database_manager_a957885a860c413d46e6c924c5573d89e}{Database\+Manager} (Q\+Object $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_database_manager_a957885a860c413d46e6c924c5573d89e}{Database\+Manager\+::\+Database\+Manager}. \end{DoxyCompactList}\item 
+\hyperlink{class_database_manager_ae9b3a5da1e04fbb00faf8a034da1d063}{$\sim$\+Database\+Manager} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_database_manager_ae9b3a5da1e04fbb00faf8a034da1d063}{Database\+Manager\+::$\sim$\+Database\+Manager}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_database_manager_a3cf904602c89c51b42ee4c66752a8989}{setup\+D\+B} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_database_manager_a3cf904602c89c51b42ee4c66752a8989}{Database\+Manager\+::setup\+D\+B}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_database_manager_ad3d4a41b420d52c57a2ef4f19b031904}{setup\+D\+B\+Tables} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_database_manager_ad3d4a41b420d52c57a2ef4f19b031904}{Database\+Manager\+::setup\+D\+B\+Tables}. \end{DoxyCompactList}\item 
+Q\+Sql\+Error \hyperlink{class_database_manager_a0d786883976ea0f32e3566415138478d}{last\+Error} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_database_manager_a0d786883976ea0f32e3566415138478d}{Database\+Manager\+::last\+Error}. \end{DoxyCompactList}\item 
+Q\+Sql\+Query \hyperlink{class_database_manager_ae4cb8c8594da3342bc97a5ed325794c5}{get\+Entries} (Q\+String sql\+Statement)
+\item 
+Q\+Sql\+Database \hyperlink{class_database_manager_a4c1124bbf21d49013912fedac7407ce8}{get\+Database} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_database_manager_a4c1124bbf21d49013912fedac7407ce8}{Database\+Manager\+::get\+Database}. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{class_database_manager_ab3c7cbe356245a5d3222147e1bb019bd}{get\+S\+Q\+L\+Error} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_database_manager_ab3c7cbe356245a5d3222147e1bb019bd}{Database\+Manager\+::get\+S\+Q\+L\+Error}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_database_manager_a0d54fec86ec216a04a38b98ef2493b9f}{set\+Error} (Q\+String alert)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_database_manager_a0d54fec86ec216a04a38b98ef2493b9f}{Database\+Manager\+::set\+Error}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Sql\+Database \hyperlink{class_database_manager_ac59e194df96c891e617fcff06a56745b}{database}
+\item 
+Q\+String \hyperlink{class_database_manager_ac6e7c2d8a3d5603e83c0cd36cdb4e870}{database\+Path}
+\item 
+Q\+String \hyperlink{class_database_manager_aeac4d1f7e240732d413d6e7d74cbaef6}{error}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_database_manager}{Database\+Manager} class. 
+
+\hyperlink{databasemanager_8h}{databasemanager.\+h} This manages the connection of the programm to the database.
+
+\begin{DoxyAuthor}{Author}
+Robert Wolfinger 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 20.\+09.\+14 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_database_manager_a957885a860c413d46e6c924c5573d89e}{\index{Database\+Manager@{Database\+Manager}!Database\+Manager@{Database\+Manager}}
+\index{Database\+Manager@{Database\+Manager}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{Database\+Manager}]{\setlength{\rightskip}{0pt plus 5cm}Database\+Manager\+::\+Database\+Manager (
+\begin{DoxyParamCaption}
+\item[{Q\+Object $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_database_manager_a957885a860c413d46e6c924c5573d89e}
+
+
+\hyperlink{class_database_manager_a957885a860c413d46e6c924c5573d89e}{Database\+Manager\+::\+Database\+Manager}. 
+
+Constructs the \hyperlink{class_database_manager}{Database\+Manager} with the given parent.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_database_manager_ae9b3a5da1e04fbb00faf8a034da1d063}{\index{Database\+Manager@{Database\+Manager}!````~Database\+Manager@{$\sim$\+Database\+Manager}}
+\index{````~Database\+Manager@{$\sim$\+Database\+Manager}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{$\sim$\+Database\+Manager}]{\setlength{\rightskip}{0pt plus 5cm}Database\+Manager\+::$\sim$\+Database\+Manager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_database_manager_ae9b3a5da1e04fbb00faf8a034da1d063}
+
+
+\hyperlink{class_database_manager_ae9b3a5da1e04fbb00faf8a034da1d063}{Database\+Manager\+::$\sim$\+Database\+Manager}. 
+
+Deconstructs the \hyperlink{class_database_manager}{Database\+Manager}. All changes are being comitted and the connection is closed. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_database_manager_a4c1124bbf21d49013912fedac7407ce8}{\index{Database\+Manager@{Database\+Manager}!get\+Database@{get\+Database}}
+\index{get\+Database@{get\+Database}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{get\+Database}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Sql\+Database Database\+Manager\+::get\+Database (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_database_manager_a4c1124bbf21d49013912fedac7407ce8}
+
+
+\hyperlink{class_database_manager_a4c1124bbf21d49013912fedac7407ce8}{Database\+Manager\+::get\+Database}. 
+
+Returns the database of the \hyperlink{class_database_manager}{Database\+Manager}.
+
+\begin{DoxyReturn}{Returns}
+database 
+\end{DoxyReturn}
+\hypertarget{class_database_manager_ae4cb8c8594da3342bc97a5ed325794c5}{\index{Database\+Manager@{Database\+Manager}!get\+Entries@{get\+Entries}}
+\index{get\+Entries@{get\+Entries}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{get\+Entries}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Sql\+Query Database\+Manager\+::get\+Entries (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{sql\+Statement}
+\end{DoxyParamCaption}
+)}}\label{class_database_manager_ae4cb8c8594da3342bc97a5ed325794c5}
+\hypertarget{class_database_manager_ab3c7cbe356245a5d3222147e1bb019bd}{\index{Database\+Manager@{Database\+Manager}!get\+S\+Q\+L\+Error@{get\+S\+Q\+L\+Error}}
+\index{get\+S\+Q\+L\+Error@{get\+S\+Q\+L\+Error}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{get\+S\+Q\+L\+Error}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Database\+Manager\+::get\+S\+Q\+L\+Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_database_manager_ab3c7cbe356245a5d3222147e1bb019bd}
+
+
+\hyperlink{class_database_manager_ab3c7cbe356245a5d3222147e1bb019bd}{Database\+Manager\+::get\+S\+Q\+L\+Error}. 
+
+Returns the set S\+Q\+L\+Error of the \hyperlink{class_database_manager}{Database\+Manager}.
+
+\begin{DoxyReturn}{Returns}
+S\+Q\+L\+Error 
+\end{DoxyReturn}
+\hypertarget{class_database_manager_a0d786883976ea0f32e3566415138478d}{\index{Database\+Manager@{Database\+Manager}!last\+Error@{last\+Error}}
+\index{last\+Error@{last\+Error}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{last\+Error}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Sql\+Error Database\+Manager\+::last\+Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_database_manager_a0d786883976ea0f32e3566415138478d}
+
+
+\hyperlink{class_database_manager_a0d786883976ea0f32e3566415138478d}{Database\+Manager\+::last\+Error}. 
+
+Returns the last error of the database.
+
+\begin{DoxyReturn}{Returns}
+Last error of the database 
+\end{DoxyReturn}
+\hypertarget{class_database_manager_a0d54fec86ec216a04a38b98ef2493b9f}{\index{Database\+Manager@{Database\+Manager}!set\+Error@{set\+Error}}
+\index{set\+Error@{set\+Error}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{set\+Error}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+Manager\+::set\+Error (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{alert}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_database_manager_a0d54fec86ec216a04a38b98ef2493b9f}
+
+
+\hyperlink{class_database_manager_a0d54fec86ec216a04a38b98ef2493b9f}{Database\+Manager\+::set\+Error}. 
+
+Sets the error of the \hyperlink{class_database_manager}{Database\+Manager} from the given alert. This can be used to set for example a S\+Q\+L\+Error which is not a Database\+Error.
+
+
+\begin{DoxyParams}{Parameters}
+{\em alert} & \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_database_manager_a0d54fec86ec216a04a38b98ef2493b9f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_database_manager_a3cf904602c89c51b42ee4c66752a8989}{\index{Database\+Manager@{Database\+Manager}!setup\+D\+B@{setup\+D\+B}}
+\index{setup\+D\+B@{setup\+D\+B}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{setup\+D\+B}]{\setlength{\rightskip}{0pt plus 5cm}bool Database\+Manager\+::setup\+D\+B (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_database_manager_a3cf904602c89c51b42ee4c66752a8989}
+
+
+\hyperlink{class_database_manager_a3cf904602c89c51b42ee4c66752a8989}{Database\+Manager\+::setup\+D\+B}. 
+
+Sets up the databaseconnection of the \hyperlink{class_database_manager}{Database\+Manager}.
+
+\begin{DoxyReturn}{Returns}
+success of the setup 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_database_manager_a3cf904602c89c51b42ee4c66752a8989_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=293pt]{class_database_manager_a3cf904602c89c51b42ee4c66752a8989_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_database_manager_ad3d4a41b420d52c57a2ef4f19b031904}{\index{Database\+Manager@{Database\+Manager}!setup\+D\+B\+Tables@{setup\+D\+B\+Tables}}
+\index{setup\+D\+B\+Tables@{setup\+D\+B\+Tables}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{setup\+D\+B\+Tables}]{\setlength{\rightskip}{0pt plus 5cm}bool Database\+Manager\+::setup\+D\+B\+Tables (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_database_manager_ad3d4a41b420d52c57a2ef4f19b031904}
+
+
+\hyperlink{class_database_manager_ad3d4a41b420d52c57a2ef4f19b031904}{Database\+Manager\+::setup\+D\+B\+Tables}. 
+
+Creates all necessary tables in the database if they do not already exist.
+
+\begin{DoxyReturn}{Returns}
+success of setting up tables 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_database_manager_ad3d4a41b420d52c57a2ef4f19b031904_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_database_manager_ad3d4a41b420d52c57a2ef4f19b031904_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_database_manager_ac59e194df96c891e617fcff06a56745b}{\index{Database\+Manager@{Database\+Manager}!database@{database}}
+\index{database@{database}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{database}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Sql\+Database Database\+Manager\+::database\hspace{0.3cm}{\ttfamily [private]}}}\label{class_database_manager_ac59e194df96c891e617fcff06a56745b}
+\hypertarget{class_database_manager_ac6e7c2d8a3d5603e83c0cd36cdb4e870}{\index{Database\+Manager@{Database\+Manager}!database\+Path@{database\+Path}}
+\index{database\+Path@{database\+Path}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{database\+Path}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Database\+Manager\+::database\+Path\hspace{0.3cm}{\ttfamily [private]}}}\label{class_database_manager_ac6e7c2d8a3d5603e83c0cd36cdb4e870}
+\hypertarget{class_database_manager_aeac4d1f7e240732d413d6e7d74cbaef6}{\index{Database\+Manager@{Database\+Manager}!error@{error}}
+\index{error@{error}!Database\+Manager@{Database\+Manager}}
+\subsubsection[{error}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Database\+Manager\+::error\hspace{0.3cm}{\ttfamily [private]}}}\label{class_database_manager_aeac4d1f7e240732d413d6e7d74cbaef6}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Entwicklung/\+C++/\+Workspace/\+Beleg\+Cpp/\hyperlink{databasemanager_8h}{databasemanager.\+h}\item 
+D\+:/\+Entwicklung/\+C++/\+Workspace/\+Beleg\+Cpp/\hyperlink{databasemanager_8cpp}{databasemanager.\+cpp}\end{DoxyCompactItemize}

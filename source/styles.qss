@@ -1,0 +1,19 @@
+QPushButton{
+
+	outline: none;
+}
+
+QComboBox {
+
+padding: 0px;
+}
+
+QComboBox::item {
+    background: black;
+
+}
+
+QTabBar::active{
+	
+	outline: none;
+}

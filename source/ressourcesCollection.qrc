@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/patterns">
+        <file alias="carbon_dark">Ressourcen/Pattern/subtle_carbon.png</file>
+        <file alias="tex_grey">Ressourcen/Pattern/tex2res4.png</file>
+        <file alias="wild_olivia">Ressourcen/Pattern/wild_oliva.png</file>
+        <file alias="woven">Ressourcen/Pattern/woven.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Ressourcen/readme.txt</file>
+        <file>styles.qss</file>
+    </qresource>
+</RCC>

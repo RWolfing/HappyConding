@@ -1,0 +1,9 @@
+<map id="DialogSearchCriteria::on_bttnGo_clicked" name="DialogSearchCriteria::on_bttnGo_clicked">
+<area shape="rect" id="node2" href="$class_dialog_search_criteria.html#a9b57352b785dc4b716e171c7835b0ff8" title="DialogSearchCriteria\l::KEY_NAME_ENTRY" alt="" coords="199,5,351,47"/>
+<area shape="rect" id="node3" href="$class_dialog_search_criteria.html#ac49318706a518f848fe9b4902c120e8d" title="DialogSearchCriteria\l::KEY_NAME_AUTHOR" alt="" coords="193,71,356,112"/>
+<area shape="rect" id="node4" href="$class_dialog_search_criteria.html#a2db45b1bebeb55547c213dd558342bb7" title="DialogSearchCriteria\l::KEY_DATE" alt="" coords="205,136,345,177"/>
+<area shape="rect" id="node5" href="$class_dialog_search_criteria.html#a855feb356d17d2631bf7251f1a501ce1" title="DialogSearchCriteria\l::KEY_PATTERN" alt="" coords="205,201,345,243"/>
+<area shape="rect" id="node6" href="$class_dialog_search_criteria.html#a3f9f43120bea93348999826e4071310d" title="DialogSearchCriteria\l::KEY_LANGUAGE" alt="" coords="205,267,345,308"/>
+<area shape="rect" id="node7" href="$class_dialog_search_criteria.html#a874909d0b8c007695ef40120bc290157" title="DialogSearchCriteria\l::KEY_CODE" alt="" coords="205,332,345,373"/>
+<area shape="rect" id="node8" href="$class_dialog_search_criteria.html#a8c29bb9a9d48246950ff23abee75d059" title="DialogSearchCriteria\l::KEY_DESCR" alt="" coords="205,397,345,439"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DialogSettings::on_bttnAddPattern_clicked" name="DialogSettings::on_bttnAddPattern_clicked">
+<area shape="rect" id="node2" href="$class_dialog_simple_entry.html#ab9f80cd88dae4100bfb47b9df2cd02ad" title="DialogSimpleEntry::getTextFieldContent. " alt="" coords="239,5,377,47"/>
+<area shape="rect" id="node3" href="$class_dialog_simple_entry.html#addf576d4bc4e1acbd27743c112f267b1" title="DialogSimpleEntry::getColor. " alt="" coords="239,71,377,112"/>
+<area shape="rect" id="node4" href="$class_main_window.html#ae428cebea54284db9dc7416b3a3cb924" title="MainWindow::calculateTextColor. " alt="" coords="217,136,399,177"/>
+</map>

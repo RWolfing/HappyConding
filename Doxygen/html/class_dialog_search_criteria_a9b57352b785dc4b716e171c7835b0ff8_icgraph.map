@@ -1,0 +1,10 @@
+<map id="DialogSearchCriteria::KEY_NAME_ENTRY" name="DialogSearchCriteria::KEY_NAME_ENTRY">
+<area shape="rect" id="node2" href="$class_dialog_search_criteria.html#a0e106dc53e15508c8d8bf59308870371" title="DialogSearchCriteria::on_bttnGo_clicked. " alt="" coords="222,5,362,47"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a097083ebf975108934ad8d9c6fdd3f3f" title="MainWindow::closed_CriteriaDialog. " alt="" coords="667,115,809,156"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a587dd8ed3e896b4c047e66cc1c0c62a5" title="MainWindow::doSearch. " alt="" coords="213,122,371,149"/>
+<area shape="rect" id="node7" href="$class_simple_criteria.html#a57ee6f50514f21b0c275b74d5a4d4b81" title="SimpleCriteria::setupColor. " alt="" coords="205,239,379,266"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a12c4c94f2496fad333abb9b12d898e7f" title="MainWindow::on_bttnCustomize_clicked. " alt="" coords="857,115,1067,156"/>
+<area shape="rect" id="node6" href="$class_main_window.html#a32b2923a323e16dc60261ce4cfe60d65" title="MainWindow::on_bttnSearch_clicked. " alt="" coords="429,173,617,215"/>
+<area shape="rect" id="node8" href="$class_simple_criteria.html#a78a6330050abac3b1b570512a6c2b448" title="SimpleCriteria::SimpleCriteria. " alt="" coords="427,239,619,266"/>
+<area shape="rect" id="node9" href="$class_simple_criteria.html#abad0685c0d1a9be0dd6fbf2e54fe0238" title="SimpleCriteria::setContent. " alt="" coords="435,290,610,317"/>
+</map>

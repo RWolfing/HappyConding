@@ -1,0 +1,8 @@
+<map id="EntryWidget::EntryWidget" name="EntryWidget::EntryWidget">
+<area shape="rect" id="node2" href="$class_entry_widget.html#acc64918b0faf33853d2aeeb85d53c3fd" title="EntryWidget::setupColor. " alt="" coords="237,38,401,65"/>
+<area shape="rect" id="node3" href="$class_entry_entity.html#a8d72297bafb99e6e6761f8b9f32888ef" title="EntryEntity::getLanguage" alt="" coords="457,13,627,39"/>
+<area shape="rect" id="node4" href="$class_entry_entity.html#a8386a3a73fbd18e2c567ab93db643e2b" title="EntryEntity::getPattern" alt="" coords="465,75,619,102"/>
+<area shape="rect" id="node5" href="$class_main_window.html#ae428cebea54284db9dc7416b3a3cb924" title="MainWindow::calculateTextColor. " alt="" coords="228,140,409,181"/>
+<area shape="rect" id="node6" href="$class_entry_entity.html#a3f1c1dd15ed91ce6215d6e44dd3b2be7" title="EntryEntity::getEntryDate" alt="" coords="233,206,404,233"/>
+<area shape="rect" id="node7" href="$class_entry_entity.html#a1f07642efaed25e9725ed130258c4f3f" title="EntryEntity::getEntryName" alt="" coords="229,257,408,283"/>
+</map>

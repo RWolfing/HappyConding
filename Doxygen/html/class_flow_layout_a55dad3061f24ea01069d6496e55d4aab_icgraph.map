@@ -1,0 +1,9 @@
+<map id="FlowLayout::takeAt" name="FlowLayout::takeAt">
+<area shape="rect" id="node2" href="$class_flow_layout.html#abcbfd03a4758b98bcf13d44f5e673551" title="FlowLayout::~FlowLayout" alt="" coords="189,5,360,32"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a961c54c30f2992fc82039385d3fc8983" title="MainWindow::clearCriteriaFlowLayout. " alt="" coords="409,49,583,90"/>
+<area shape="rect" id="node6" href="$class_main_window.html#a4387a9bb100d6a47ea900af89d625b0a" title="MainWindow::clearEntriesFlowLayout. " alt="" coords="188,107,361,149"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a097083ebf975108934ad8d9c6fdd3f3f" title="MainWindow::closed_CriteriaDialog. " alt="" coords="653,49,796,90"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a12c4c94f2496fad333abb9b12d898e7f" title="MainWindow::on_bttnCustomize_clicked. " alt="" coords="867,49,1076,90"/>
+<area shape="rect" id="node7" href="$class_main_window.html#a587dd8ed3e896b4c047e66cc1c0c62a5" title="MainWindow::doSearch. " alt="" coords="417,115,575,141"/>
+<area shape="rect" id="node8" href="$class_main_window.html#a32b2923a323e16dc60261ce4cfe60d65" title="MainWindow::on_bttnSearch_clicked. " alt="" coords="631,114,819,155"/>
+</map>

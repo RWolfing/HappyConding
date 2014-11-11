@@ -1,0 +1,11 @@
+<map id="MainWindow::calculateTextColor" name="MainWindow::calculateTextColor">
+<area shape="rect" id="node2" href="$class_dialog_settings.html#afd62a031c10ddfa1fc50f8f5ade07db4" title="DialogSettings::DialogSettings. " alt="" coords="235,5,433,32"/>
+<area shape="rect" id="node3" href="$class_dialog_settings.html#a787f686519f7877b35a330e584965c5c" title="DialogSettings::on_bttnAddPattern_clicked. " alt="" coords="252,57,416,98"/>
+<area shape="rect" id="node4" href="$class_dialog_settings.html#a90c6372109b546601f37e694552158a4" title="DialogSettings::on_bttnAddPattern_clicked. " alt="" coords="259,122,409,163"/>
+<area shape="rect" id="node5" href="$class_entry_widget.html#aa779077fc090b2cec2b00c57a1083249" title="EntryWidget::EntryWidget. " alt="" coords="247,188,421,215"/>
+<area shape="rect" id="node6" href="$class_simple_criteria.html#a57ee6f50514f21b0c275b74d5a4d4b81" title="SimpleCriteria::setupColor. " alt="" coords="247,239,421,265"/>
+<area shape="rect" id="node7" href="$class_simple_criteria.html#a78a6330050abac3b1b570512a6c2b448" title="SimpleCriteria::SimpleCriteria. " alt="" coords="481,213,673,240"/>
+<area shape="rect" id="node8" href="$class_simple_criteria.html#abad0685c0d1a9be0dd6fbf2e54fe0238" title="SimpleCriteria::setContent. " alt="" coords="490,264,665,291"/>
+<area shape="rect" id="node9" href="$class_main_window.html#a097083ebf975108934ad8d9c6fdd3f3f" title="MainWindow::closed_CriteriaDialog. " alt="" coords="721,257,864,298"/>
+<area shape="rect" id="node10" href="$class_main_window.html#a12c4c94f2496fad333abb9b12d898e7f" title="MainWindow::on_bttnCustomize_clicked. " alt="" coords="912,257,1121,298"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MainWindow::doSearch" name="MainWindow::doSearch">
+<area shape="rect" id="node2" href="$class_main_window.html#a32b2923a323e16dc60261ce4cfe60d65" title="MainWindow::on_bttnSearch_clicked. " alt="" coords="212,5,400,47"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a097083ebf975108934ad8d9c6fdd3f3f" title="MainWindow::closed_CriteriaDialog. " alt="" coords="235,71,377,112"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a12c4c94f2496fad333abb9b12d898e7f" title="MainWindow::on_bttnCustomize_clicked. " alt="" coords="448,71,657,112"/>
+</map>

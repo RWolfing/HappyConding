@@ -1,0 +1,5 @@
+<map id="DialogSettings::on_bttnAddLang_clicked" name="DialogSettings::on_bttnAddLang_clicked">
+<area shape="rect" id="node2" href="$class_dialog_simple_entry.html#ab9f80cd88dae4100bfb47b9df2cd02ad" title="DialogSimpleEntry::getTextFieldContent. " alt="" coords="225,5,364,47"/>
+<area shape="rect" id="node3" href="$class_dialog_simple_entry.html#addf576d4bc4e1acbd27743c112f267b1" title="DialogSimpleEntry::getColor. " alt="" coords="226,71,363,112"/>
+<area shape="rect" id="node4" href="$class_main_window.html#ae428cebea54284db9dc7416b3a3cb924" title="MainWindow::calculateTextColor. " alt="" coords="204,136,385,177"/>
+</map>

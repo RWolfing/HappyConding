@@ -1,0 +1,7 @@
+<map id="EntryEntity::setEntryId" name="EntryEntity::setEntryId">
+<area shape="rect" id="node2" href="$class_entry_entity.html#a4131db8f9e9a5f600948f32ec92b15a1" title="EntryEntity::EntryEntity. " alt="" coords="208,5,368,32"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a587dd8ed3e896b4c047e66cc1c0c62a5" title="MainWindow::doSearch. " alt="" coords="209,56,367,83"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a32b2923a323e16dc60261ce4cfe60d65" title="MainWindow::on_bttnSearch_clicked. " alt="" coords="416,15,604,57"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a097083ebf975108934ad8d9c6fdd3f3f" title="MainWindow::closed_CriteriaDialog. " alt="" coords="439,81,581,122"/>
+<area shape="rect" id="node6" href="$class_main_window.html#a12c4c94f2496fad333abb9b12d898e7f" title="MainWindow::on_bttnCustomize_clicked. " alt="" coords="652,81,861,122"/>
+</map>

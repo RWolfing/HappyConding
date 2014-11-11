@@ -1,0 +1,81 @@
+\hypertarget{databasemanager_8cpp}{\section{D\+:/\+Entwicklung/\+C++/\+Workspace/\+Beleg\+Cpp/databasemanager.cpp File Reference}
+\label{databasemanager_8cpp}\index{D\+:/\+Entwicklung/\+C++/\+Workspace/\+Beleg\+Cpp/databasemanager.\+cpp@{D\+:/\+Entwicklung/\+C++/\+Workspace/\+Beleg\+Cpp/databasemanager.\+cpp}}
+}
+{\ttfamily \#include \char`\"{}databasemanager.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$Q\+Dir$>$}\\*
+{\ttfamily \#include $<$Q\+Sql\+Query$>$}\\*
+{\ttfamily \#include $<$Q\+Message\+Box$>$}\\*
+Include dependency graph for databasemanager.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{databasemanager_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{databasemanager_8cpp_a2e3455bf5d6f7bca34a957b5291c4cf2}{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E}~\char`\"{}code\+D\+B.\+db\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_a27f9ee26064ac9e97e0ff567f7790b8b}{T\+A\+B\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+E\+N\+T\+R\+I\+E\+S}~\char`\"{}Entries\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_a14723258b5217b3a3178f0e72ef60744}{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+N\+A\+M\+E}~\char`\"{}Entry\+Name\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_ad7ff6875e082241b5c5051f234e5b77f}{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+D\+A\+T\+E}~\char`\"{}Entry\+Date\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_ad7ff2105a04a3e5b5f8e6a9eb70fdd6a}{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+A\+U\+T\+O\+R\+N\+A\+M\+E}~\char`\"{}Autor\+Name\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_af617c5560b8d82aeaad5b0a38736d1d4}{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+C\+O\+D\+E}~\char`\"{}Entry\+Code\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_a7e1aafa5542eb56af56fb76b0381bdb1}{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+P\+A\+T\+T\+E\+R\+N}~\char`\"{}Pattern\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_a0a017aefc52edb9aaf0b72278ab7712f}{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+Y\+S\+T\+E\+M}~\char`\"{}System\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_ae51b7feb9632a426289d060e7d513cdf}{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+O\+U\+R\+C\+E\+S}~\char`\"{}Sources\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_a5deab5e3c64b043815aa74867da6b148}{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N}~\char`\"{}Code\+Description\char`\"{}
+\item 
+\#define \hyperlink{databasemanager_8cpp_aa4a81f2f94ac4935bd22f99f3fa772cd}{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+L\+A\+N\+G\+U\+A\+G\+E}~\char`\"{}Code\+Language\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{databasemanager_8cpp_a2e3455bf5d6f7bca34a957b5291c4cf2}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E@{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E}}
+\index{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E@{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E~\char`\"{}code\+D\+B.\+db\char`\"{}}}\label{databasemanager_8cpp_a2e3455bf5d6f7bca34a957b5291c4cf2}
+\begin{DoxyAuthor}{Author}
+Robert Wolfinger 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 20.\+09.\+14 
+\end{DoxyVersion}
+\hypertarget{databasemanager_8cpp_ad7ff2105a04a3e5b5f8e6a9eb70fdd6a}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+A\+U\+T\+O\+R\+N\+A\+M\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+A\+U\+T\+O\+R\+N\+A\+M\+E}}
+\index{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+A\+U\+T\+O\+R\+N\+A\+M\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+A\+U\+T\+O\+R\+N\+A\+M\+E}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+A\+U\+T\+O\+R\+N\+A\+M\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+A\+U\+T\+O\+R\+N\+A\+M\+E~\char`\"{}Autor\+Name\char`\"{}}}\label{databasemanager_8cpp_ad7ff2105a04a3e5b5f8e6a9eb70fdd6a}
+\hypertarget{databasemanager_8cpp_af617c5560b8d82aeaad5b0a38736d1d4}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+C\+O\+D\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+C\+O\+D\+E}}
+\index{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+C\+O\+D\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+C\+O\+D\+E}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+C\+O\+D\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+C\+O\+D\+E~\char`\"{}Entry\+Code\char`\"{}}}\label{databasemanager_8cpp_af617c5560b8d82aeaad5b0a38736d1d4}
+\hypertarget{databasemanager_8cpp_a5deab5e3c64b043815aa74867da6b148}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N}}
+\index{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N~\char`\"{}Code\+Description\char`\"{}}}\label{databasemanager_8cpp_a5deab5e3c64b043815aa74867da6b148}
+\hypertarget{databasemanager_8cpp_ad7ff6875e082241b5c5051f234e5b77f}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+D\+A\+T\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+D\+A\+T\+E}}
+\index{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+D\+A\+T\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+D\+A\+T\+E}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+D\+A\+T\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+D\+A\+T\+E~\char`\"{}Entry\+Date\char`\"{}}}\label{databasemanager_8cpp_ad7ff6875e082241b5c5051f234e5b77f}
+\hypertarget{databasemanager_8cpp_a14723258b5217b3a3178f0e72ef60744}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+N\+A\+M\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+N\+A\+M\+E}}
+\index{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+N\+A\+M\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+N\+A\+M\+E}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+N\+A\+M\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+E\+N\+T\+R\+Y\+N\+A\+M\+E~\char`\"{}Entry\+Name\char`\"{}}}\label{databasemanager_8cpp_a14723258b5217b3a3178f0e72ef60744}
+\hypertarget{databasemanager_8cpp_aa4a81f2f94ac4935bd22f99f3fa772cd}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+L\+A\+N\+G\+U\+A\+G\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+L\+A\+N\+G\+U\+A\+G\+E}}
+\index{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+L\+A\+N\+G\+U\+A\+G\+E@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+L\+A\+N\+G\+U\+A\+G\+E}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+L\+A\+N\+G\+U\+A\+G\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+L\+A\+N\+G\+U\+A\+G\+E~\char`\"{}Code\+Language\char`\"{}}}\label{databasemanager_8cpp_aa4a81f2f94ac4935bd22f99f3fa772cd}
+\hypertarget{databasemanager_8cpp_a7e1aafa5542eb56af56fb76b0381bdb1}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+P\+A\+T\+T\+E\+R\+N@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+P\+A\+T\+T\+E\+R\+N}}
+\index{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+P\+A\+T\+T\+E\+R\+N@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+P\+A\+T\+T\+E\+R\+N}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+P\+A\+T\+T\+E\+R\+N}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+P\+A\+T\+T\+E\+R\+N~\char`\"{}Pattern\char`\"{}}}\label{databasemanager_8cpp_a7e1aafa5542eb56af56fb76b0381bdb1}
+\hypertarget{databasemanager_8cpp_ae51b7feb9632a426289d060e7d513cdf}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+O\+U\+R\+C\+E\+S@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+O\+U\+R\+C\+E\+S}}
+\index{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+O\+U\+R\+C\+E\+S@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+O\+U\+R\+C\+E\+S}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+O\+U\+R\+C\+E\+S}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+O\+U\+R\+C\+E\+S~\char`\"{}Sources\char`\"{}}}\label{databasemanager_8cpp_ae51b7feb9632a426289d060e7d513cdf}
+\hypertarget{databasemanager_8cpp_a0a017aefc52edb9aaf0b72278ab7712f}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+Y\+S\+T\+E\+M@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+Y\+S\+T\+E\+M}}
+\index{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+Y\+S\+T\+E\+M@{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+Y\+S\+T\+E\+M}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+Y\+S\+T\+E\+M}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+Q\+L\+\_\+\+T\+A\+G\+\_\+\+S\+Y\+S\+T\+E\+M~\char`\"{}System\char`\"{}}}\label{databasemanager_8cpp_a0a017aefc52edb9aaf0b72278ab7712f}
+\hypertarget{databasemanager_8cpp_a27f9ee26064ac9e97e0ff567f7790b8b}{\index{databasemanager.\+cpp@{databasemanager.\+cpp}!T\+A\+B\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+E\+N\+T\+R\+I\+E\+S@{T\+A\+B\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+E\+N\+T\+R\+I\+E\+S}}
+\index{T\+A\+B\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+E\+N\+T\+R\+I\+E\+S@{T\+A\+B\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+E\+N\+T\+R\+I\+E\+S}!databasemanager.\+cpp@{databasemanager.\+cpp}}
+\subsubsection[{T\+A\+B\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+E\+N\+T\+R\+I\+E\+S}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\+A\+B\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+E\+N\+T\+R\+I\+E\+S~\char`\"{}Entries\char`\"{}}}\label{databasemanager_8cpp_a27f9ee26064ac9e97e0ff567f7790b8b}

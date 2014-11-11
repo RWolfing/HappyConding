@@ -1,0 +1,393 @@
+\hypertarget{class_flow_layout}{\section{Flow\+Layout Class Reference}
+\label{class_flow_layout}\index{Flow\+Layout@{Flow\+Layout}}
+}
+
+
+The \hyperlink{class_flow_layout}{Flow\+Layout} class.  
+
+
+
+
+{\ttfamily \#include $<$flowlayout.\+h$>$}
+
+
+
+Inheritance diagram for Flow\+Layout\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{class_flow_layout__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Flow\+Layout\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{class_flow_layout__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_flow_layout_afd3623cad3b02592123eb8a4dd01546f}{Flow\+Layout} (Q\+Widget $\ast$parent, int margin=-\/1, int h\+Spacing=-\/1, int v\+Spacing=-\/1)
+\item 
+\hyperlink{class_flow_layout_acce1c3b9a2b2d3a674cc9452fc77137c}{Flow\+Layout} (int margin=-\/1, int h\+Spacing=-\/1, int v\+Spacing=1)
+\item 
+\hyperlink{class_flow_layout_abcbfd03a4758b98bcf13d44f5e673551}{$\sim$\+Flow\+Layout} ()
+\item 
+void \hyperlink{class_flow_layout_a6a3f498fdac0145fe38838f31a6336cf}{add\+Item} (Q\+Layout\+Item $\ast$item)
+\item 
+int \hyperlink{class_flow_layout_a214d375a68a3590bf4b947e02eae09a3}{horizontal\+Spacing} () const 
+\item 
+int \hyperlink{class_flow_layout_a1b15dce81c6bce51290d3b55c35dcd3e}{vertical\+Spacing} () const 
+\item 
+Qt\+::\+Orientations \hyperlink{class_flow_layout_a2d2b5413e1e4eff15d23134208812a47}{expanding\+Directions} () const 
+\item 
+bool \hyperlink{class_flow_layout_a52203cd7f45648d9aee605b38daf4d87}{has\+Height\+For\+Width} () const 
+\item 
+int \hyperlink{class_flow_layout_af976e908e7bd74bd2ceff220739712a9}{height\+For\+Width} (int) const 
+\item 
+int \hyperlink{class_flow_layout_ae0d78c1e30b0bf5346e3ab94b80edeff}{count} () const 
+\item 
+Q\+Layout\+Item $\ast$ \hyperlink{class_flow_layout_a02d52a0e8ae5cf8672b2bb1537b896f2}{item\+At} (int index) const 
+\item 
+Q\+Size \hyperlink{class_flow_layout_a6e28537828ad1c477a299df5bc156212}{minimum\+Size} () const 
+\item 
+void \hyperlink{class_flow_layout_aa33b32ad4916b86b062d427860952d1e}{set\+Geometry} (const Q\+Rect \&rect)
+\item 
+Q\+Size \hyperlink{class_flow_layout_a7d52617e64c908d68dc1c75fbb549325}{size\+Hint} () const 
+\item 
+Q\+Layout\+Item $\ast$ \hyperlink{class_flow_layout_a55dad3061f24ea01069d6496e55d4aab}{take\+At} (int index)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_flow_layout_a2a2a9fba22a112465ac0ae090aeca28d}{do\+Layout} (const Q\+Rect \&rect, bool test\+Only) const 
+\item 
+int \hyperlink{class_flow_layout_a5587a685db946a053451293d7493a523}{smart\+Spacing} (Q\+Style\+::\+Pixel\+Metric pm) const 
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+List$<$ Q\+Layout\+Item $\ast$ $>$ \hyperlink{class_flow_layout_ac0439e82402e53445451edfece8a499d}{item\+List}
+\item 
+int \hyperlink{class_flow_layout_a4ca5e85c50060f2cf19d88d1e3bf9cd5}{m\+\_\+h\+Space}
+\item 
+int \hyperlink{class_flow_layout_ab24b23dbcc261472940b3755ba63a4c0}{m\+\_\+v\+Space}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_flow_layout}{Flow\+Layout} class. 
+
+Layout where elements align in a flow from left to right. This class was created by the given example of a flowlayout. Source\+: \href{http://qt-project.org/doc/qt-4.8/layouts-flowlayout.html}{\tt http\+://qt-\/project.\+org/doc/qt-\/4.\+8/layouts-\/flowlayout.\+html} Date\+: 20.\+09.\+2014
+
+\begin{DoxyAuthor}{Author}
+Qt 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_flow_layout_afd3623cad3b02592123eb8a4dd01546f}{\index{Flow\+Layout@{Flow\+Layout}!Flow\+Layout@{Flow\+Layout}}
+\index{Flow\+Layout@{Flow\+Layout}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{Flow\+Layout}]{\setlength{\rightskip}{0pt plus 5cm}Flow\+Layout\+::\+Flow\+Layout (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{parent, }
+\item[{int}]{margin = {\ttfamily -\/1}, }
+\item[{int}]{h\+Spacing = {\ttfamily -\/1}, }
+\item[{int}]{v\+Spacing = {\ttfamily -\/1}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{class_flow_layout_afd3623cad3b02592123eb8a4dd01546f}
+\hypertarget{class_flow_layout_acce1c3b9a2b2d3a674cc9452fc77137c}{\index{Flow\+Layout@{Flow\+Layout}!Flow\+Layout@{Flow\+Layout}}
+\index{Flow\+Layout@{Flow\+Layout}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{Flow\+Layout}]{\setlength{\rightskip}{0pt plus 5cm}Flow\+Layout\+::\+Flow\+Layout (
+\begin{DoxyParamCaption}
+\item[{int}]{margin = {\ttfamily -\/1}, }
+\item[{int}]{h\+Spacing = {\ttfamily -\/1}, }
+\item[{int}]{v\+Spacing = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{class_flow_layout_acce1c3b9a2b2d3a674cc9452fc77137c}
+\hypertarget{class_flow_layout_abcbfd03a4758b98bcf13d44f5e673551}{\index{Flow\+Layout@{Flow\+Layout}!````~Flow\+Layout@{$\sim$\+Flow\+Layout}}
+\index{````~Flow\+Layout@{$\sim$\+Flow\+Layout}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{$\sim$\+Flow\+Layout}]{\setlength{\rightskip}{0pt plus 5cm}Flow\+Layout\+::$\sim$\+Flow\+Layout (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_flow_layout_abcbfd03a4758b98bcf13d44f5e673551}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{class_flow_layout_abcbfd03a4758b98bcf13d44f5e673551_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_flow_layout_a6a3f498fdac0145fe38838f31a6336cf}{\index{Flow\+Layout@{Flow\+Layout}!add\+Item@{add\+Item}}
+\index{add\+Item@{add\+Item}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{add\+Item}]{\setlength{\rightskip}{0pt plus 5cm}void Flow\+Layout\+::add\+Item (
+\begin{DoxyParamCaption}
+\item[{Q\+Layout\+Item $\ast$}]{item}
+\end{DoxyParamCaption}
+)}}\label{class_flow_layout_a6a3f498fdac0145fe38838f31a6336cf}
+\hypertarget{class_flow_layout_ae0d78c1e30b0bf5346e3ab94b80edeff}{\index{Flow\+Layout@{Flow\+Layout}!count@{count}}
+\index{count@{count}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{count}]{\setlength{\rightskip}{0pt plus 5cm}int Flow\+Layout\+::count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_flow_layout_ae0d78c1e30b0bf5346e3ab94b80edeff}
+\hypertarget{class_flow_layout_a2a2a9fba22a112465ac0ae090aeca28d}{\index{Flow\+Layout@{Flow\+Layout}!do\+Layout@{do\+Layout}}
+\index{do\+Layout@{do\+Layout}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{do\+Layout}]{\setlength{\rightskip}{0pt plus 5cm}int Flow\+Layout\+::do\+Layout (
+\begin{DoxyParamCaption}
+\item[{const Q\+Rect \&}]{rect, }
+\item[{bool}]{test\+Only}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}}\label{class_flow_layout_a2a2a9fba22a112465ac0ae090aeca28d}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a2a2a9fba22a112465ac0ae090aeca28d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a2a2a9fba22a112465ac0ae090aeca28d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_flow_layout_a2d2b5413e1e4eff15d23134208812a47}{\index{Flow\+Layout@{Flow\+Layout}!expanding\+Directions@{expanding\+Directions}}
+\index{expanding\+Directions@{expanding\+Directions}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{expanding\+Directions}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Orientations Flow\+Layout\+::expanding\+Directions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_flow_layout_a2d2b5413e1e4eff15d23134208812a47}
+\hypertarget{class_flow_layout_a52203cd7f45648d9aee605b38daf4d87}{\index{Flow\+Layout@{Flow\+Layout}!has\+Height\+For\+Width@{has\+Height\+For\+Width}}
+\index{has\+Height\+For\+Width@{has\+Height\+For\+Width}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{has\+Height\+For\+Width}]{\setlength{\rightskip}{0pt plus 5cm}bool Flow\+Layout\+::has\+Height\+For\+Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_flow_layout_a52203cd7f45648d9aee605b38daf4d87}
+\hypertarget{class_flow_layout_af976e908e7bd74bd2ceff220739712a9}{\index{Flow\+Layout@{Flow\+Layout}!height\+For\+Width@{height\+For\+Width}}
+\index{height\+For\+Width@{height\+For\+Width}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{height\+For\+Width}]{\setlength{\rightskip}{0pt plus 5cm}int Flow\+Layout\+::height\+For\+Width (
+\begin{DoxyParamCaption}
+\item[{int}]{width}
+\end{DoxyParamCaption}
+) const}}\label{class_flow_layout_af976e908e7bd74bd2ceff220739712a9}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_af976e908e7bd74bd2ceff220739712a9_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_flow_layout_a214d375a68a3590bf4b947e02eae09a3}{\index{Flow\+Layout@{Flow\+Layout}!horizontal\+Spacing@{horizontal\+Spacing}}
+\index{horizontal\+Spacing@{horizontal\+Spacing}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{horizontal\+Spacing}]{\setlength{\rightskip}{0pt plus 5cm}int Flow\+Layout\+::horizontal\+Spacing (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_flow_layout_a214d375a68a3590bf4b947e02eae09a3}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a214d375a68a3590bf4b947e02eae09a3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a214d375a68a3590bf4b947e02eae09a3_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_flow_layout_a02d52a0e8ae5cf8672b2bb1537b896f2}{\index{Flow\+Layout@{Flow\+Layout}!item\+At@{item\+At}}
+\index{item\+At@{item\+At}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{item\+At}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Layout\+Item $\ast$ Flow\+Layout\+::item\+At (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+) const}}\label{class_flow_layout_a02d52a0e8ae5cf8672b2bb1537b896f2}
+\hypertarget{class_flow_layout_a6e28537828ad1c477a299df5bc156212}{\index{Flow\+Layout@{Flow\+Layout}!minimum\+Size@{minimum\+Size}}
+\index{minimum\+Size@{minimum\+Size}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{minimum\+Size}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Size Flow\+Layout\+::minimum\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_flow_layout_a6e28537828ad1c477a299df5bc156212}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a6e28537828ad1c477a299df5bc156212_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_flow_layout_aa33b32ad4916b86b062d427860952d1e}{\index{Flow\+Layout@{Flow\+Layout}!set\+Geometry@{set\+Geometry}}
+\index{set\+Geometry@{set\+Geometry}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{set\+Geometry}]{\setlength{\rightskip}{0pt plus 5cm}void Flow\+Layout\+::set\+Geometry (
+\begin{DoxyParamCaption}
+\item[{const Q\+Rect \&}]{rect}
+\end{DoxyParamCaption}
+)}}\label{class_flow_layout_aa33b32ad4916b86b062d427860952d1e}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_aa33b32ad4916b86b062d427860952d1e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_flow_layout_a7d52617e64c908d68dc1c75fbb549325}{\index{Flow\+Layout@{Flow\+Layout}!size\+Hint@{size\+Hint}}
+\index{size\+Hint@{size\+Hint}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{size\+Hint}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Size Flow\+Layout\+::size\+Hint (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_flow_layout_a7d52617e64c908d68dc1c75fbb549325}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a7d52617e64c908d68dc1c75fbb549325_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_flow_layout_a5587a685db946a053451293d7493a523}{\index{Flow\+Layout@{Flow\+Layout}!smart\+Spacing@{smart\+Spacing}}
+\index{smart\+Spacing@{smart\+Spacing}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{smart\+Spacing}]{\setlength{\rightskip}{0pt plus 5cm}int Flow\+Layout\+::smart\+Spacing (
+\begin{DoxyParamCaption}
+\item[{Q\+Style\+::\+Pixel\+Metric}]{pm}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}}\label{class_flow_layout_a5587a685db946a053451293d7493a523}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a5587a685db946a053451293d7493a523_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_flow_layout_a55dad3061f24ea01069d6496e55d4aab}{\index{Flow\+Layout@{Flow\+Layout}!take\+At@{take\+At}}
+\index{take\+At@{take\+At}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{take\+At}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Layout\+Item $\ast$ Flow\+Layout\+::take\+At (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_flow_layout_a55dad3061f24ea01069d6496e55d4aab}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a55dad3061f24ea01069d6496e55d4aab_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_flow_layout_a1b15dce81c6bce51290d3b55c35dcd3e}{\index{Flow\+Layout@{Flow\+Layout}!vertical\+Spacing@{vertical\+Spacing}}
+\index{vertical\+Spacing@{vertical\+Spacing}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{vertical\+Spacing}]{\setlength{\rightskip}{0pt plus 5cm}int Flow\+Layout\+::vertical\+Spacing (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_flow_layout_a1b15dce81c6bce51290d3b55c35dcd3e}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a1b15dce81c6bce51290d3b55c35dcd3e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flow_layout_a1b15dce81c6bce51290d3b55c35dcd3e_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_flow_layout_ac0439e82402e53445451edfece8a499d}{\index{Flow\+Layout@{Flow\+Layout}!item\+List@{item\+List}}
+\index{item\+List@{item\+List}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{item\+List}]{\setlength{\rightskip}{0pt plus 5cm}Q\+List$<$Q\+Layout\+Item $\ast$$>$ Flow\+Layout\+::item\+List\hspace{0.3cm}{\ttfamily [private]}}}\label{class_flow_layout_ac0439e82402e53445451edfece8a499d}
+\hypertarget{class_flow_layout_a4ca5e85c50060f2cf19d88d1e3bf9cd5}{\index{Flow\+Layout@{Flow\+Layout}!m\+\_\+h\+Space@{m\+\_\+h\+Space}}
+\index{m\+\_\+h\+Space@{m\+\_\+h\+Space}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{m\+\_\+h\+Space}]{\setlength{\rightskip}{0pt plus 5cm}int Flow\+Layout\+::m\+\_\+h\+Space\hspace{0.3cm}{\ttfamily [private]}}}\label{class_flow_layout_a4ca5e85c50060f2cf19d88d1e3bf9cd5}
+\hypertarget{class_flow_layout_ab24b23dbcc261472940b3755ba63a4c0}{\index{Flow\+Layout@{Flow\+Layout}!m\+\_\+v\+Space@{m\+\_\+v\+Space}}
+\index{m\+\_\+v\+Space@{m\+\_\+v\+Space}!Flow\+Layout@{Flow\+Layout}}
+\subsubsection[{m\+\_\+v\+Space}]{\setlength{\rightskip}{0pt plus 5cm}int Flow\+Layout\+::m\+\_\+v\+Space\hspace{0.3cm}{\ttfamily [private]}}}\label{class_flow_layout_ab24b23dbcc261472940b3755ba63a4c0}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Entwicklung/\+C++/\+Workspace/\+Beleg\+Cpp/\hyperlink{flowlayout_8h}{flowlayout.\+h}\item 
+D\+:/\+Entwicklung/\+C++/\+Workspace/\+Beleg\+Cpp/\hyperlink{flowlayout_8cpp}{flowlayout.\+cpp}\end{DoxyCompactItemize}

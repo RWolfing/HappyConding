@@ -1,0 +1,10 @@
+<map id="EntryWidget::EntryWidget" name="EntryWidget::EntryWidget">
+<area shape="rect" id="node2" href="$class_entry_entity.html#a20c8ff5f7b29bc6a54a68fde6318f365" title="EntryEntity::setEntryDate" alt="" coords="233,5,404,32"/>
+<area shape="rect" id="node3" href="$class_entry_entity.html#a96b5fdfb05183a9c8f570abb3c73e974" title="EntryEntity::setEntryName" alt="" coords="229,56,408,83"/>
+<area shape="rect" id="node4" href="$class_entry_entity.html#a255b536a9474e681bf5023f55188a1c6" title="EntryEntity::setPattern" alt="" coords="241,107,396,133"/>
+<area shape="rect" id="node5" href="$class_entry_entity.html#a0a4e25af4be8c937f2dcdcfb054b5d49" title="EntryEntity::setLanguage" alt="" coords="234,157,403,184"/>
+<area shape="rect" id="node6" href="$class_entry_widget.html#acc64918b0faf33853d2aeeb85d53c3fd" title="EntryWidget::setupColor. " alt="" coords="237,208,401,235"/>
+<area shape="rect" id="node9" href="$class_main_window.html#ae428cebea54284db9dc7416b3a3cb924" title="MainWindow::calculateTextColor. " alt="" coords="228,259,409,301"/>
+<area shape="rect" id="node7" href="$class_entry_entity.html#a8d72297bafb99e6e6761f8b9f32888ef" title="EntryEntity::getLanguage" alt="" coords="457,183,627,209"/>
+<area shape="rect" id="node8" href="$class_entry_entity.html#a8386a3a73fbd18e2c567ab93db643e2b" title="EntryEntity::getPattern" alt="" coords="465,233,619,260"/>
+</map>

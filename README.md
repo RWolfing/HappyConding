@@ -1,8 +1,4 @@
-HappyConding
+HappyCoding
 ============
 
-Project to save private programming pattern.
-
-===========
-
-With Happy Coding you can save your codepatterns with custom tags and reload them when needed.
+This is a private Project to save programming pattern.
